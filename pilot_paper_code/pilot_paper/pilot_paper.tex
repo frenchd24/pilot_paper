@@ -1,0 +1,268 @@
+\documentclass[iop]{emulateapj-rtx4}
+%\slugcomment{{\sc Accepted to ApJ:} April 14, 2015}
+
+
+%\documentclass[12pt]{article}
+%\pdfpagewidth 8.5in
+%\pdfpageheight 11in 
+%\setlength\topmargin{0in}
+%\setlength\headheight{0in}
+%\setlength\headsep{0in}
+%\setlength\textheight{9in}
+%\setlength\textwidth{6.5in}
+%\setlength\oddsidemargin{0in}
+%\setlength\evensidemargin{0in}
+\usepackage{graphicx}
+\usepackage{amssymb}
+
+%\usepackage{multicol}
+%\usepackage{sidecap}
+%\usepackage{ragged2e}
+
+%\usepackage{etoolbox}
+%\AtBeginEnvironment{multicols}{\RaggedRight}
+
+%\usepackage{epstopdf}
+%\usepackage{verbatim}
+
+%\usepackage{caption}
+%\usepackage{subcaption}
+
+\usepackage{wrapfig}
+\usepackage{setspace}
+%\usepackage{subfig}
+\usepackage{mathtools}
+
+
+%\newcommand{\rms}[1]{\langle #1 \rangle}
+%\renewcommand{\baselinestretch}{1.5}
+%\renewcommand{\thefootnote}{\roman{footnote}}
+
+\graphicspath{{paper_figures//}}
+
+
+\frenchspacing
+
+\begin{document}
+
+%\onehalfspacing
+
+\title{Probing the CGM in the nearby Universe in Ly$\alpha$ absorption: Discovery of an gas absorption-velocity dichotomy}
+\author{David M. French, Bart P. Wakker}
+\affil{Department of Astronomy, University of Wisconsin - Madison}
+
+%\affil{Department of Astronomy, University of Wisconsin - Madison; frenchd@astro.wisc.edu}
+
+
+\begin{abstract}
+
+We present initial results from an ongoing study of the large-scale study of the circumgalactic medium in the nearby Universe ($cz < 10,000 km/s$), using archive Cosmic Origins Spectrograph (COS) sightlines of background QSOs. This initial sample contains 35 sight lines, yielding 154 Ly$\alpha$ systems, 46 of which we have paired with nearby galaxies. We find a dichotomy in the equivalent widths (EW) of absorption systems around $\Delta v = v_{galaxy} - v_{gas}$, with positive $\Delta v$ absorption EW = $366 \pm 15$m\AA, and negative $\Delta v$  absorption EW = $192 \pm 12$m\AA. We also find a preference for absorption around highly inclined galaxies, but little evidence of azimuthal dependence.
+
+
+%Galaxies must accrete gas from the intergalactic medium (IGM) in order to sustain star formation at observed levels. In order to understand this complex process, and how it influences galaxy evolution, it is necessary to understand the physical conditions and distribution of the gas around galaxies, known as the circumgalactic medium (CGM). For my thesis, I propose to use archival spectra of bright background QSOs taken by the Cosmic Origins Spectrograph (COS) on the Hubble Space Telescope (HST) to directly probe the CGM of galaxies in the nearby Universe. I will supplement this spectral data with observations of these galaxies taken by the WIYN and SALT telescopes. This proposed program will be the largest and most statistically significant survey of the local CGM to date.
+
+\end{abstract}
+\keywords{IGM, CGM, galaxies}
+
+
+%\section{Galaxy Table:}
+%
+%\subsection{Extinction:}
+%
+%Extinction estimates for galaxies are taken from the Galactic Dust Reddening and Extinction service of IRSA, which provides values derived by Schlegel, Finkbeiner \& Davis (1998) and Schlafly and Finkbeiner (2011) from combined IRAS and COBE/DIRBE results. We use the updated Schlafly \& Finkbeiner 2011 (ApJ 737, 103) values, which are corrections on the original Schlegel et al. 1998 (ApJ 500, 525) values based on the following:
+%
+%\begin{equation}
+%E(B-V)_{S~\&~F} = 0.86~*~ E(B-V)_{SFD}
+%\end{equation}
+ 
+ 
+ 
+\section{Introduction}
+
+
+
+Intro outline:
+
+- Most baryons are in the IGM. Works like Erb 2008 show that galaxies must accrete some of this gas to continue forming stars. How does this happen, what is the geometry?
+
+- Kacprzak finds bimodal MgII absorption. Nothing has yet been found for Lya (? right?)
+
+- Simulations (which ones?) predict hot and cold flows, filaments. Are these seen physically?
+
+- This is the pilot results from an ongoing survey of the local CGM. Represents 35 high S/N sight lines near large, nearby galaxies.
+
+
+
+
+
+The majority of the baryons in the Universe are found outside of stars and galaxies, in the diffuse intergalactic medium (IGM). 
+Numerous studies have shown an excess of IGM material nearby galaxies, and 
+
+
+Old introduction:
+
+\indent The majority of the baryons in the universe are found in the diffuse intergalactic medium (IGM). The IGM and the galaxies that reside in it are tightly linked by processes such as feedback and accretion. In order to sustain the levels of star formation observed, galaxies must accrete gas throughout their lifetimes (e.g. see Erb 2008, Putman et al. 2009b). At the same time, ongoing star formation and active galactic nuclei (AGN) activity produce feedback that drives gas back into the IGM. This life cycle of gas is complex, and still poorly constrained. Understanding the properties of the IGM such as its densities, temperatures, and motions, and its relationship to the galaxies embedded within it is \textit{essential} for explaining the evolution of galaxies and the star formation history of the universe. 
+
+\indent The properties of the vast reservoir of material in the IGM can be understood by analyzing lines of sight towards background quasi-stellar objects (QSOs). Individual concentrations of gas along a given sightline imprint a `forest' of absorption lines on the spectrum in the direction of the QSO. The metal lines trace the star formation history within the intervening gas, and neutral hydrogen lines (Ly$\alpha$) indicate both the location and velocities of outflowing gas as well as the presence of fuel for future star formation. The relationship between the galaxies and the IGM is usually studied by looking for galaxies that lie near the redshift of detected absorption lines (see Figure \ref{hubble_cgm} for an illustration). This approach has value, but is incomplete; it does not allow for an unbiased understanding of the distribution of the gas around galaxies, which requires looking for both detections and non-detections of gas, both near as well as far away from galaxies.
+
+\indent The current standard model of structure formation is given by $\Lambda$CDM cosmology, which predicts the hierarchical growth of large scale structures seeded by initial fluctuations in the dark matter background. In this picture, both galaxies and neutral H\,{\sc i} follow the same underlying density profile. Wakker et al. (2015, submitted) have provided some observational evidence for this, showing that Ly$\alpha$ absorption strength traces the large-scale distribution of galaxies in a Cosmic Web filament. In addition, numerous previous studies have shown that Ly$\alpha$ absorbers also trace individual galaxy halos (e.g. Wakker $\&$ Savage 2009, Danforth et al. 2014, Stocke et al. 2013, Liang et al 2014, Lanzetta et al 1995, Chen et al. 1998, 2001a, Tripp et al. 1998, Steidel et al. 2010, Prochaska et al. 2011, Thom et al 2012). 
+
+Recent studies find that about half of Ly$\alpha$ absorbers lie within galaxy haloes, at impact parameters $\rho<350$ kpc (C\^{o}t\'{e} et al. 2005, Prochaska et al. 2006). In addition, Wakker $\&$ Savage (2009) find that for 90$\%$ of L$>0.1L_{\**}$ galaxies an absorber lies within 400 kpc and 400 km/s, and all galaxies have a Ly$\alpha$ absorber within 1.5 Mpc. Higher redshift studies, such as Rudie et al. (2012) at $2<z<3$, find evidence for an elevated density of absorbers up to 2 Mpc from galaxies. Wakker $\&$ Savage (2009) also confirmed a previously suggested correlation between Ly$\alpha$ absorption linewidth ($W$) and impact parameter $\rho$, observing that the broadest lines (FWHM $>$150 km/s) are only seen within 350 kpc of a galaxy, while at $\rho>1$ Mpc, only lines with FWHM $<75$ km/s occur (see Figure \ref{moneyplot}).
+
+In addition, studying the enrichment of galaxy halos is necessary for constraining outflow models and informing stellar feedback prescriptions. Directly measuring the velocity field and column densities of absorbers as a function of impact parameter and orientation around galaxies would provide the clearest evidence of inflow or outflow activity, but results are still uncertain. Kacprzak et al. (2011) claim to find that Mg\,{\sc ii} equivalent widths correlate with galaxy inclination, but Mathes et al. (2014) find no such correlation for Ly$\alpha$ and O\,{\sc vi} absorbers. Furthermore, we should expect outflowing gas to be more highly enriched and trace the metallicity of the associated galaxy, with inflowing gas instead appearing only in H\,{\sc i}. Both Stocke et al. (2013) and Liang $\&$ Chen (2014) find an ``edge'' to heavy ion absorption at $\sim0.5R_h$, but with Ly$\alpha$ covering fractions of $\sim0.75-1$ continuing out to $R_{vid}$. However, Mathes et al. (2014) measures O\,{\sc vi} absorption out to $\sim3$ $D_{gal}/R_{vir}$. 
+
+% and Bordoloi et al. (2014) find some evidence of a bimodal distribution of Mg\,{\sc ii} absorption features dependent on galaxy inclination, which they attribute to outflows and accretion along and onto the disk.
+
+All previous studies have suffered from small sample sizes (e.g. Mathes et al. 2014 use 14 galaxies, Stocke et al. 2013 use 11, Werk et al. 2014 use 44), and incompleteness due to their higher mean redshifts (e.g. the Mathes et al. 2014 sample is $0.12 <z<0.67$, and Werk et al. 2014 are complete to $\sim L^{\**}$ at $z\sim0.2$).
+
+\textit{I propose to conduct a survey of the properties of intergalactic gas in the nearby universe}, where we have good and relatively complete information on both faint and bright galaxies, in order to reveal how the IGM and galaxies affect each other. I will use the over 300 archived QSO and Seyfert spectra taken by the Cosmic Origins Spectrograph (COS) on the Hubble Space Telescope (HST), combined with the wealth of information available for the $\sim100,000$ galaxies with $cz<10,000$ km/s found in the NASA Extragalactic Database (NED), supplemented with data obtained from the WIYN and SALT telescopes, to \textit{directly} probe the environment of absorbing gas systems in the nearby universe. 
+
+There are many other ongoing studies of the IGM/CGM using QSO absorption to probe galaxy halos, but this is the only study that concentrates on \textit{Ly$\alpha$ absorption in the nearby} Universe, where the galaxy sample is nearly complete, and where large angular impact parameters between absorbers and galaxies can be physically meaningful, while also being of sufficiently large scale to produce robust statistics. This thesis aims to make a major step toward revealing the properties of the CGM. This proposal is organized as follows: in Section 2 I introduce the major scientific questions I intend to investigate, in Section 3 I present the program I am undertaking to answer said scientific questions, and in Section 4 I present initial results from the pilot study. Section 5 provides a summary and timeline for the remainder of my graduate career.
+
+
+\vspace{15pt}
+
+\section{Scientific Questions}
+
+\indent \textbullet $ $ \textit{Do the physical properties of absorbers depend on their location and orientation with respect to galaxies?} Recent results suggest that absorbing systems have a preferred orientation with respect to the major and minor axes of the galaxies they are associated with (e.g. Kacprzak et al. 2011, 2012). This could be evidence of inflows and outflows, or an effect of the global structure of galaxy halos, but the statistics are not yet good enough to provide consistent answers. Initial results from our pilot study (described below) suggest a preference for detecting absorbers near highly inclined galaxies (inclination $>50^{\circ}$), and show an intriguing dichotomy between red vs blue shifted absorbers with respect to the systemic galaxy velocity, possibly revealing evidence of inflows (see Figure \ref{dichotomy}; French et al. 2015, in prep). A larger-scale study of inclination and azimuthal angles vs. absorber properties for the largest galaxies in the nearby universe, where it is possible to obtain inclinations and unambiguous absorber associations, is needed in order to elucidate the distribution of absorbing systems around galaxies.
+
+\vspace{10pt}
+\indent \textbullet $ $ \textit{How strongly is intergalactic gas concentrated near galaxies, and do galaxies affect the physical conditions of the intergalactic gas?} Recent studies find that half of all Ly$\alpha$ absorbers lie within galaxy halos, at impact parameters $\rho<350$kpc and within 400 km/s of the associated galaxy (C\^{o}t\'{e} et al. 2005, Prochaska et al. 2006, Wakker $\&$ Savage 2009 - hereafter WS09). The properties of the lines also appear to change with impact parameter. It has been known for some time that higher column densities are found closer to galaxies (see WS09 and many references therein). In addition, broad lines (FWHM$>$150 km/s) are only seen at impact parameters smaller than 350 kpc (see Figure \ref{moneyplot}).  This phenomenon was also observed at higher redshift by Prochaska et al. (2011), but it remains unclear which physical process is responsible; increased turbulence, increased temperature, an effect of velocity gradients, or a blending of different cloudlets. Studying this phenomenon as a function of environment and understanding the properties and morphologies of the nearby galaxies is the clearest way forward on this question. This requires a much larger sample than that used by WS09, which is what our study will achieve. 
+
+\vspace{10pt}
+\indent \textbullet $ $ \textit{Does intergalactic gas know about the rotation of the galaxies embedded within it?} In particular, we would like to know how far out (to what impact parameter $\rho$) the rotation curves of galaxies extend. Previous studies (WS09; Kacprzak et al. 2011) were unable to find a clear correlation between $\rho$ and rotation but suffered from a lack of galaxies with known rotation direction. All of these studies are also strongly affected by galaxy sample incompleteness, uncertain galaxy distances, and inconsistent measures of galaxy luminosity. Studying galaxies in the nearby universe makes it possible to obtain orientation information for galaxies, as they can be easily resolved. This aspect of study will benefit especially from the upcoming large ASKAP survey WALLABY (see below), which will map all HI-rich galaxies in the nearby universe, thus allowing us to measure the orientation and rotation direction for any galaxies containing HI.
+
+\vspace{10pt}
+\indent \textbullet $ $ \textit{How is the nature of gas within galaxy groups different from that of gas surrounding field galaxies?} WS09 find that for field galaxies a Ly$\alpha$ or Ly$\beta$ absorber can be found in 100$\%$ of cases where a L$>0.1L_{\**}$ galaxy lies within $\rho=350$ kpc of a sightline. For groups this fraction decreases to only $40\%$. This implies that either galaxy groups contain more highly ionized gas than that surrounding field galaxies, or that this gas is more readily swept up due to the higher density of galaxies within groups. However, two major problems with these conclusions remain: (1) group catalogues for nearby galaxies were created over 20 years ago and at that time many galaxies did not have redshifts, so group memberships are liable to change significantly, and (2) the composition and structure of the galaxies within groups has not been considered (e.g. spiral vs elliptical, X-ray properties). A better assessment requires an updated group catalogue and taking into account existing supplementary information for individual galaxies.
+
+\vspace{15pt}
+
+
+\section{Data and Analysis}
+
+\subsection{COS Data}
+All COS spectra were obtained from the Multimission Archive at Space Telescope (MAST) archives and the CALCOS pipeline was used for processing the raw data. We combined individual exposures by the method of Wakker et al. (2015, submitted), which corrects the COS wavelength scale by cross-correlating all ISM and IGM lines in each exposure. This method corrects the up to $\pm40$ km/s misalignments produced by CALCOS, and produces a corrected error array (based on Poisson noise, which better matches the measured error). Multiple exposures are then aligned by comparing Galactic absorption lines with 21-cm spectra, and combined by adding up the total counts in each pixel and then converting back to flux using the original, average flux-count ratio at each wavelength. All spectral features were then identified by hand. 
+
+
+
+\subsection{Archival Galaxy Data}
+
+We have made extensive use of NED to compile a table of all pertinent cz$\leq$10,000 galaxy information. NED makes an effort to homogenize these data, but I have gone further by normalizing all measurements of inclination, position angle, size, and luminosity to 2MASS $K$-band values. 2MASS values were chosen for this because it was an all-sky survey, and represents the largest fraction of available galaxy data.
+\begin{figure}[h!]
+\centering
+  \includegraphics[width=1.\linewidth]{figTON1009_crop.pdf}
+  \caption{An example Ly$\alpha$ line found in a sightline towards target TON1009 at 4295 km/s. French et al. (2015, in prep)}
+  \label{line}
+\end{figure}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.\linewidth]{map2_TON1009_4295_newlabels_crop_hires2.png}
+  \caption{A map of \textit{all} galaxies within a 500 kpc impact parameter target TON1009 sightline and with velocity ($cz$) within 400 km/s of absorption detected at 4295 km/s (central black star). The galaxy IC2439 ($v=4494$ km/s, inclination = $71^{\circ}$) can be unambiguously paired with the Ly$\alpha$ absorption feature at $v=4295$ km/s because it is the largest and closest galaxy in both physical and velocity space to the absorption feature. French et al. (2015, in prep)}
+  \label{impactmap}
+\label{TON1009}
+\vspace{5pt}
+\end{figure}
+
+
+
+%We identified all spectral features in each spectra by eye and made single Gaussian component fits to each, computing equivalent widths via the standard prescription ($W = \int (1- e^{-\tau_{\lambda}})d\lambda$). 
+
+\section{Pilot Study}
+
+\indent We are now completing an initial study of 35 QSO sightlines chosen for their proximity to large galaxies (impact parameter $\leq$ 500 kpc) and their high S/N (S/N $\ge$ 10). For each detected Ly$\alpha$ absorption component, we correlate with the galaxy environment to generate impact parameter maps centered at the systemic velocity of the absorption. Figure \ref{TON1009} shows an example map and Ly$\alpha$ line, where we can clearly see that the galaxy IC2439 is unambiguously associated with this particular Ly$\alpha$ line. By building up a dataset of such unambiguous pairings, we can correlate the absorption directly with the properties of the galaxies.
+
+\vspace{10pt}
+\subsection{Results}
+
+\indent Our sample of 35 sightlines yields 154 Ly$\alpha$ systems, $32\%$ of which can be paired unambiguously with a single galaxy, while $51\%$ reside in relative voids. In agreement with previous studies, we find a steep increase in $W$ with decreasing impact parameter, \textit{but only when normalizing for galaxy size}, implying a mass -- baryonic halo scaling relation. Absorbers were also preferentially detected around highly inclined galaxies, with $73\%$ associated with a galaxy of inclination $>50^{\circ}$. We detect only a slight preference for absorption along the galaxies' major axis, with a median azimuthal angle of $39^{\circ}$. Most interestingly, we discovered a dichotomy between absorption redshifted vs blue shifted with respect to the systemic galaxy velocity (see Figure \ref{dichotomy}). This difference is significant, with $\overline{W}$(redshifted) = 192$\pm$10 m\AA, and $\overline{W}$(blueshifted) = 366$\pm$14 m\AA. 
+
+\begin{figure}[h!]
+        \centering
+        \vspace{-10pt}
+        \includegraphics[width=0.52\textwidth]{Wvsinclinationfinal3.jpg}
+        \caption{\small{Equivalent width ($W$) of each absorber as a function of the inclination angle of the associated galaxy in the pilot study sample (French et al 2015, in prep). The dashed black line is drawn to highlight the separation between red and blue shifted absorption systems (with respect to the systemic velocity of the galaxy).}}
+%        \vspace{-5pt}
+        \label{dichotomy}
+\end{figure} 
+
+
+Following the suggestions of recent simulations (e.g. van de Voort et al. 2012), this could be indicative of cold, filamentary inflows, which are expected to be denser, and hot, lower density outflows. So far, we have mostly worked on preparing our data (galaxy properties, spectra, spectral identification, etc), but we are now ready to complete analyzing and preparing a letter with the results.
+
+
+
+\vspace{10pt}
+\section{Discussion}
+\indent Much can also be learned about how gas interacts with and is oriented with respect to galaxies by extracting predictions from simulations. $\Lambda$CDM cosmology simulations (e.g. Oppenheimer \& Dav{\'e} 2009; Kere{\v s} \& Hernquist 2009; Smith et al. 2011; Oppenheimer et al. 2012; van de Voort et al. 2012; Cen 2013 \& 2014) concentrate on absorbers originating in galaxy halos (at small $\rho$) or study the Ly$\alpha$ forest statistically (at large $\rho$), but little has yet been done on the intervening region. This region beyond galaxy halos and within 2 Mpc of the galaxies, the region that ultimately provides the source of gas inside galaxies and their halos, is easily resolvable and studied with current simulations, yet few observational constraints currently exist. By extracting individual sight lines from these simulations, we will be able to test the absorption signatures of changing galaxy inclination, size, morphology, and many other properties against real observations. For example, several recent simulations (e.g. van de Voort et al. 2012) suggest blue and red shifted absorption (such as we are seeing in our pilot study; Figure \ref{dichotomy}) could be indicative of cold inflows and hot outflows, respectively. To test this scenario, we will investigate the distribution of metal ion absorption associated with the Ly$\alpha$, as cold, filamentary inflows are expected to be lower metallicity than hot, outflowing gas. The improved statistics from this large data set will ensure reliable results, enabling us to make important strides towards understanding the physical conditions and environments of low redshift absorbers and their relationship with galaxies.
+
+
+
+\vspace{10pt}
+\section{Summary}
+
+
+
+
+%\begin{figure}[h!]
+%\centering
+%\begin{subfigure}{.44\textwidth}
+%  \centering
+%  \includegraphics[width=1.0\linewidth]{figTON1009_crop.pdf}
+%  \caption{\textbf{ABOVE} An example Ly$\alpha$ line found in a sightline towards target TON1009 at 4295 km/s. (b) \textbf{LEFT} A map of \textit{all} galaxies within a 500 kpc impact parameter target TON1009 sightline and with velocity ($cz$) within 400 km/s of absorption detected at 4295 km/s (central black star). The galaxy IC2439 ($v=4494$ km/s, inclination = $71^{\circ}$) can be unambiguously paired with the Ly$\alpha$ absorption feature at $v=4295$ km/s.}
+%  \label{line}
+%\end{subfigure}
+%\begin{subfigure}{.55\textwidth}
+%  \centering
+%  \includegraphics[width=1.0\linewidth]{map2_TON1009_4295_newlabels_crop.png}
+%  \caption{}
+%  \label{impactmap}
+%\end{subfigure}
+%\caption{An example Ly$\alpha$ absorption system towards target TON1009. French et al. (2015, in prep)}
+%\label{TON1009}
+%\end{figure}
+
+
+
+
+%\begin{SCfigure}[][h!]
+%\centering
+%\begin{subfigure}{.49\textwidth}
+%  \centering
+%  \includegraphics[width=.99\linewidth]{figTON1009_crop.pdf}
+%  \caption{An example Ly$\alpha$ line found in a sightline towards target TON1009 at 4295 km/s.}
+%  \label{line}
+%\end{subfigure}
+%
+%
+%\begin{subfigure}{.50\textwidth}
+%  \centering
+%  \includegraphics[width=.99\linewidth]{map2_TON1009_4295_newlabels_crop.png}
+%  \caption{A map of \textit{all} galaxies within a 500 kpc impact parameter target TON1009 sightline and with velocity ($cz$) within 400 km/s of absorption detected at 4295 km/s (central black star). The galaxy IC2439 ($v=4494$ km/s, inclination = $71^{\circ}$) can be unambiguously paired with the Ly$\alpha$ absorption feature at $v=4295$ km/s.}
+%  \label{impactmap}
+%\end{subfigure}
+%\caption{An example Ly$\alpha$ absorption system towards target TON009.}
+%\label{TON1009}
+%\end{SCfigure}
+
+%\section{Comparisons with Simulations}
+%\indent Much can also be learned about how gas interacts with and is oriented with respect to galaxies by extracting predictions from simulations. $\Lambda$CDM cosmology simulations (e.g. Oppenheimer \& Dav{\'e} 2009; Kere{\v s} \& Hernquist 2009; Smith et al. 2011; Oppenheimer et al. 2012; van de Voort et al. 2012; Cen 2013 \& 2014) concentrate on absorbers originating in galaxy halos (at small $\rho$) or study the Ly$\alpha$ forest statistically (at large $\rho$), but little has yet been done on the intervening region. This region beyond galaxy halos and within 2 Mpc of the galaxies, the region that ultimately provides the source of gas inside galaxies and their halos, is easily resolvable and studied with current simulations, yet few observational constraints currently exist. By extracting individual sight lines from these simulations, we will be able to test the absorption signatures of changing galaxy inclination, size, morphology, and many other properties against real observations. For example, several recent simulations (e.g. van de Voort et al. 2012) suggest blue and red shifted absorption (such as we are seeing in our pilot study; Figure \ref{dichotomy}) could be indicative of cold inflows and hot outflows, respectively. To test this scenario, we will investigate the distribution of metal ion absorption associated with the Ly$\alpha$, as cold, filamentary inflows are expected to be lower metallicity than hot, outflowing gas. The improved statistics from this large data set will ensure reliable results, enabling us to make important strides towards understanding the physical conditions and environments of low redshift absorbers and their relationship with galaxies.
+
+
+
+
+%\vspace{15pt}
+%\noindent \textbf{Summary:}\\
+%\indent The low redshift (\textit{z}$<$0.5) Ly$\alpha$ forest contains approximately 30$\%$ of the total baryons in the Universe. Much can be learned by studying how this significant reservoir of gas is oriented with respect to and interacting with the galaxies. $\Lambda$CDM cosmology simulations (e.g. Oppenheimer \& Dav{\'e} 2009; Smith et al. 2011; Oppenheimer et al. 2012) either concentrate on absorbers interacting with galaxy halos or study the Ly$\alpha$ forest statistically, but little has yet been done on the intervening region. This region beyond galaxy halos yet within 2 Mpc of the galaxies is easily resolvable and studied with current simulations, yet few observational constraints currently exist. My proposed work will provide the first large scale observational results constraining this important region of the Ly$\alpha$ forest. The improved statistics from this large data set will ensure reliable results, enabling us to make great strides towards understanding the physical conditions and environments of low redshift absorbers and their relationship with galaxies.
+
+
+%\vspace{10pt}
+%\section{Summary}
+
+%For my Ph.D. thesis I propose to conduct the largest to date survey of the circumgalactic medium in the nearby Universe. The low redshift (\textit{z}$<$0.5) Ly$\alpha$ forest contains approximately 30$\%$ of the total baryons in the Universe, and much can be learned by studying how this significant reservoir of gas is oriented with respect to and interacting with the galaxies. $\Lambda$CDM cosmology simulations (e.g. Oppenheimer \& Dav{\'e} 2009; Smith et al. 2011; Oppenheimer et al. 2012) either concentrate on absorbers interacting with galaxy halos or study the Ly$\alpha$ forest statistically, but little has yet been done on the intervening region (i.e. the outer CGM, where halo gas merges with the IGM). This region beyond galaxy halos yet within 2 Mpc of the galaxies is easily resolvable and studied with current simulations, yet few observational constraints currently exist. My proposed work will provide the first large-scale, statistically significant, observational results constraining this important region of the Ly$\alpha$ forest. 
+
+
+\nocite{*}
+
+\bibliography{paper_bib}
+\bibliographystyle{apj}
+
+\end{document}

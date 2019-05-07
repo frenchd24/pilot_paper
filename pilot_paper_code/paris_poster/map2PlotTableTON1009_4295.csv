@@ -1,0 +1,5 @@
+Number,galaxyName,degreesJ2000RA_Dec,impactParameter (kpc),inclination (deg),positionAngle (deg),azimuth (deg),velocity,linDiameters,morphology
+0,IC2439,"(137.16024, 32.59295)",108.6,71.3,30.0,67.7,4494.8,"(23.5, 7.5)",S0?
+1,KUG0906+333ANED01,"(137.33077, 33.12324)",495.5,64.1,x,x,3900.9,"(12.8, 5.6)",x
+2,CGCG180-046,"(137.38951, 32.50636)",153.2,51.7,85.0,143.1,4440.6,"(11.3, 7.0)",x
+3,KUG0906+331,"(137.48297, 32.9738)",401.1,68.4,168.0,-17.6,4031.5,"(9.0, 3.3)",Spiral

@@ -1,0 +1,286 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh7800\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs22 \cf0 These are my notes from making luminosity functions/ L_star estimates from the galaxy table:\
+\
+    # combinations that work: \
+    # all "B_J" works\
+    # all "b_J" works\
+    # all 'b_t' does work (combining upper and lower case)\
+    # 'J (2MASS)' is no good, but ok when combined with 'J_total (2MASS)'\
+    # 'J_tot' is no good, but combines well with 'J_pg'\
+    # 'J (KPNO)' not very good, but ok when combined with 'J (POSS II)'\
+    # 'J (Denis)' is no good, but works with 'J_pg'\
+    # 'J (DENIS)' is no good, but works with 'J_pg'\
+    # 'J (BOK)' is no good, but works with 'J_pg'\
+    # 'J (IRSF)' is no good, is okay with 'J_pg'\
+    # 'J (HST)' is no good, is okay with 'J_pg'\
+    # 'J (103a-O + GG385)' is no good, okay with 'J_pg'\
+    # 'J (103a-O + GG395)' is no good, okay with 'J_pg'\
+    # 'J_24' is no good, okay with 'J_pg'\
+    # 'i (SDSS Petrosian)' is no good, but okay with 'i (SDSS Petrosian)AB'\
+    # 'g (SDSS Petrosian)' is no good, but okay with 'g (SDSS PSF) AB'\
+    # 'H (KPNO)' is no good, but okay when combined with 'H_total (2MASS)'\
+    # all K work: 'K (2MASS)' + 'K_tot (2MASS LGA)' + 'K_s_total (2MASS)' + 'K_s (2MASS)' + 'K_s_ (2MASS)'\
+    # most of the 'B' together works\
+    \
+    \
+    # those that do NOT\
+    # all V does NOT work\
+    # all B does NOT work (combining upper and lower case)  \
+    # all "b_j" does NOT work (combining upper and lower case)\
+    # all i does NOT work (combining upper and lower case)\
+    # 'J (IRTF)' is no good\
+    # 'J (ESO/SPM)' is no good\
+    # 'J (UKIRT)' is no good\
+    # 'J (OAN-SPM)' is no good\
+    # 'H_alpha_ (HST/ACS)' is no good\
+    # 'H_alpha_ line (FLWO)' is no good\
+    # 'H_alpha_+[N II]' no good\
+    # 'H_alpha_' is no good\
+    # 'H_beta_' is no good\
+    # 'H (2MASS)' is no good\
+    # 'H (IRSF)' is no good\
+    # 'H (AAT)' is no good\
+    # 'H (UKIRT)' is no good\
+    # 'H (ESO/SPM)' is no good\
+    # 'H (HST)' is no good\
+    # 'H (OAN-SPM)' is no good\
+    # 'H (Johnson)' is no good\
+    # 'H(CAMILA)' is no good\
+    # 'H' is no good\
+    # 'H (IRTF)' is no good\
+    # 'H (Bok)' is no good\
+    # 'H (2MASS)' is no good\
+    # 'R_T(VATT)' is no good\
+    # 'R (Cousins) (R_26)' is no good\
+    # 'R_25_' is no good (old set only also)\
+    # 'R(Johnson)(JKT)' is no good\
+    # 'R(Cousins)(SAO)' is no good\
+    # 'r (SDSS Petrosian)' is no good\
+    # 'R_T_(Cousins)' is no good\
+    # 'R(HST/WFPC2)' is no good\
+    # 'R(LCO) is no good\
+    # 'R(MPG/ESO)' is no good\
+    # 'R(CFHT)' is no good\
+    # 'R(Cousins)m_tot' is no good\
+    # 'R(Johnson)' is no good\
+    # 'R(ESO/MPG-WFI)' is no good\
+    # 'R(Cousins)' is no good\
+    # 'R_c(CCD)' is no good\
+    # 'R(Cousins)(OAGH)' is no good\
+    # 'R(Cousins)(OAN)' is no good\
+    # 'B Johnson (CTIO)' is no good\
+    # 'B (CFHT)' is no good\
+    # 'B (Subaru) AB' is no good\
+    # 'B' is no good (lots of measurements unfortunately though...)\
+\
+\
+\
+        # good\
+#         if str(k) == 'i (SDSS Petrosian)':\
+#             totali = append(totali,v)\
+#         if str(k) == 'i (SDSS Petrosian)AB':\
+#             totali = append(totali,v)\
+\
+        # good\
+#         if str(k) == 'g (SDSS PSF) AB':\
+#             totalg = append(totalg,v)\
+#         if str(k) == 'g (SDSS Petrosian)':\
+#             totalg = append(totalg,v)\
+            \
+        # good\
+#         if str(k) == 'H_total (2MASS)':\
+#             totalh = append(totalh,v)\
+#         if str(k) == 'H (KPNO)':\
+#             totalh = append(totalh,v)\
+\
+\
+        # okay for old set\
+#         if str(k) == 'R(Cousins)(R_T)':\
+#             totalr = append(totalr,v)\
+\
+        # good\
+#         if str(k) == 'r_petro (SDSS) AB':\
+#             totalr = append(totalr,v)\
+\
+        # good\
+#         if str(k) == 'r (SDSS Model) AB':\
+#             totalr = append(totalr,v)\
+\
+        # good\
+#         if str(k) == 'r (SDSS PSF) AB':\
+#             totalr = append(totalr,v)\
+\
+        # good\
+#         if str(k) == 'r (SDSS Petrosian)AB':\
+#             totalr = append(totalr,v)\
+        # good\
+#         if str(k) == 'r (SDSS CModel) AB':\
+#             totalr = append(totalr,v)       \
+        \
+        # good  \
+#         if str(k) == 'K_s_ (2MASS)':\
+#             totalk = append(totalk,v)\
+#         if str(k) == 'K_s (2MASS)':\
+#             totalk = append(totalk,v)\
+#         if str(k) == 'K_s_total (2MASS)':\
+#             totalk = append(totalk,v)\
+#         if str(k) == 'K_tot (2MASS LGA)':\
+#             totalk = append(totalk,v)\
+#         if str(k) == 'K (2MASS)':\
+#             totalk = append(totalk,v)\
+\
+\
+        # all the 'B' that work\
+#         if str(k) == 'B (Kitt Peak)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (POSS II)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (MUNICS)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (VLT/FORS2)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (VATT)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Johnson)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (WIYN)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (CTIO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (SSO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (INT)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (MPG/ESO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Calar Alto)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (USNO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (INT/WFC)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (ESO/EFOSC2)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (LCO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (103a-O)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (KPNO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (OHP)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_W (KPNO/MOSAIC)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Johnson) (CAHA)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Burrell Schmidt)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_25':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B Bessel (EFOSC2)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B Johnson (WHT) AB':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (ESO-MPI)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (UKST)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_25 (JKT)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Johnson) Burrell':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (OAG)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_24 (CTIO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Cousins)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (MDM)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (m_B)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Lowell)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Johnson) (OAN)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (B_25)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B Johnson (McDonald)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (CCD)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (ESO/MPG-WFI)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (La Silla)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (m_B^0)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (NOT)':\
+#             totalb = append(totalb,v)\
+\
+\
+        # all the b_t\
+#         if str(k) == 'B_T (UHawaii)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_t (POSS II)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T_ (Johnson)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T (OHP)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_tot_ (INT/WFC)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T (Lowell)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (Cousins) (B_T)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T (VATT)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_t':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T_':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_t_':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (B_T)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_T (CTIO)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B (B_T^0)':\
+#             totalb = append(totalb,v)\
+\
+\
+#         if str(k).lower().find('b_t') != -1:\
+#             totalb = append(totalb,v)\
+            \
+            \
+#         if str(k) == 'b_J (2QZ SGP)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'b_J':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'b_J (SuperCOSMOS)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'b_j':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'b_J (UKST)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'b_J (2QZ Equatorial)':\
+#             totalb = append(totalb,v)\
+            \
+            \
+        # these work together \
+#         if str(k) == 'B_J (POSS)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_J (SERC IIIa-J)':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_J':\
+#             totalb = append(totalb,v)\
+#         if str(k) == 'B_J_25':\
+#             totalb = append(totalb,v)\
+\
+}

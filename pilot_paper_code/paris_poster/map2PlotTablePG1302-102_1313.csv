@@ -1,0 +1,4 @@
+Number,galaxyName,degreesJ2000RA_Dec,impactParameter (kpc),inclination (deg),positionAngle (deg),azimuth (deg),velocity,linDiameters,morphology
+0,NGC4920,"(195.51728, -11.37841)",468.3,0.0,90.0,43.4,1606.1,"(1.7, 1.7)",IB(s)m
+1,MCG-02-34-006,"(197.44792, -10.32)",404.9,33.6,x,x,1480.7,"(18.9, 15.8)",SAB(s)d:       Sy2
+2,6dFJ1310385-095554,"(197.661, -9.93156)",494.3,x,x,x,1436.3,"('x', 'x')",x

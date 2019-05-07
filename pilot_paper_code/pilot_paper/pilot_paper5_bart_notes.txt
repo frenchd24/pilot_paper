@@ -1,0 +1,77 @@
+
+Below is a comparison table
+
+"OK" means I did the ID and find the Lya you have.
+"OK,DOID" means I quickly checked the Lya and it is OK, but I did not do
+(or redo Danforth) the full ID.
+
+Four sightlines are missing in the paper table
+
+In a few cases there is a problem, indicated by "=>".
+
+PG0003+158 feature is not Lya@1250, but Lyb@z=0.1901.
+
+I don't see the Lya at 7279 toward PG1121+423 as a double line.
+
+I think that the feature at 3448 toward PG1302-102 may be OVI@z=0.19161.
+There is clear Lya to Lyi, CIII, SiIII. Though OVI-1037 is absent, where it
+would be expected to be visible.
+So it could be OVI OR it could indeed be Lya. Make a special note of it.
+See where it falls on the plots. If it is an outlier, remove it. Otherwise
+keep it as Lya.
+
+I don't believe the feature at 1796 toward SBS1122+594 is significant
+On the other hand, there is a clear Lya at v=1600, which is much closer
+in velocity.
+
+The feature at 1250 toward TON488 turns out to be Lyg@76477.
+
+I would split the feature at 1961 toward TON1009 into two lines, at 1933
+and 1980 km/s.
+
+
+OK,DOID 1H0717+714               LYA  UGC3804                  vgal=2887 i=53 Rv=173 rho=207 az=7  L=0.24  vLya=2870 EW=343pm6    2870  317pm6   [d]
+OK,DOID 1H0717+714               LYA  UGC3804                  vgal=2887 i=53 Rv=173 rho=207 az=7  L=0.21  vLya=2956 EW=39pm4     2956  154pm9   [d]
+OK,DOID 2dFGRS_S393Z082          LYA  NGC1097                  vgal=1271 i=47 Rv=273 rho=112 az=12 L=1.8   vLya=1239 EW=570pm21   1236  589pm30  +CII,SiII,SiIII  [old]
+OK,DOID 3C273.0                  LYA  NGC4517                  vgal=1128 i=83 Rv=193 rho=365 az=72 L=0.02  vLya=1013 EW=376pm3    1013  402pm9   +Lyb,gOVI,SiIII  [old]
+OK,DOID 3C273.0                  LYA  NGC4517                  vgal=1808 i=83 Rv=193 rho=365 az=72 L=0.018 vLya=2156 EW=57pm2     2156   15pm3   [old]
+OK,DOID 3C66A                    LYA  UCG1832                  vgal=5913 i=65 Rv=192 rho=56  az=16 L=1.7   vLya=5965 EW=53pm6     5965   57pm12  [d]    @6076 52pm10
+OK,DOID CSO395                   LYA  UGC7207                  vgal=1051 i=61 Rv=103 rho=83  az=x  L=0.87  vLya=966  EW=194pm16    870  187pm14  [old]
+OK,DOID CSO395                   LYA  UGC7207                  vgal=1051 i=61 Rv=103 rho=83  az=x  L=1.0   vLya=1025 EW=343pm15    980  33pm15   [old]
+OK      H1101-232                LYA  MCG-04-26-019            vgal=3723 i=65 Rv=173 rho=179 az=26 L=0.33  vLya=3580 EW=573pm12   3572  553pm11
+DO      HE0238-1904              missing
+OK      HE1228+0131              LYA  2MASXJ12303439+0116243   vgal=9319 i=28 Rv=127 rho=159 az=60 L=0.18  vLya=9239 EW=249pm3    9364  120pm2  +CIV+NV            @9240?
+DO      HS0624+6907              missing
+DO      IRAS_Z06229-6434         missing
+OK      MRC2251-178              LYA  MCG-03-58-009            vLya=9030 i=59 Rv=319 rho=320 az=39 L=1.4   vLya=9051 EW=60pm4     9029   43pm4
+OK      MRK290                   LYA  NGC5987                  vgal=3010 i=65 Rv=322 rho=486 az=12 L=0.77  vLya=3105 EW=511pm5    3090  461pm4  +OVI-1031/1037
+OK      MRK290                   LYA  NGC5987                  vgal=3010 i=65 Rv=322 rho=486 az=12 L=0.37  vLya=3207 EW=319pm4    3192  293pm5 
+OK      MRK1014                  LYA  NGC768                   vgal=7021 i=73 Rv=253 rho=486 az=85 L=0.12  vLya=7080 EW=117pm11   7077  112pm11
+OK      PG0003+158               LYA  NGC7814                  vgal=1050 i=65 Rv=171 rho=197 az=47 L=0.081 vLya=833  EW=131pm15    841  181pm18
+=>      PG0003+158               LYA  NGC7814                  vgal=1050 i=65 Rv=171 rho=197 az=47 L=0.097 vLya=1250 EW=79pm9     =Lyb@0.19010
+OK      PG1121+423               LYA  SDSSJ112418.74+420323.1  vgal=7374 i=65 Rv=104 rho=129 az=20 L=0.046 vLya=7126 EW=156pm7    7126   84pm9
+=>      PG1121+423               LYA  SDSSJ112418.74+420323.1  vgal=7374 i=65 Rv=104 rho=129 az=20 L=0.17  vLya=7279 EW=46pm6     not double  
+OK      PG1121+423               LYA  SDSSJ112418.74+420323.1  vgal=7374 i=65 Rv=104 rho=129 az=20 L=0.2   vLya=7328 EW=359pm7    7328  363pm7
+OK      PG1216+069               LYA  SDSSJ121903.72+063342.9  vgal=3813 i=61 Rv=71  rho=110 az=65 L=0.09  vLya=3813 EW=360pm10   3802  324pm8
+=>      PG1302-102               LYA  NGC4939                  vgal=3110 i=46 Rv=235 rho=265 az=61 L=0.05  vLya=3448 EW=71pm5     =OVI@0.19161??  maybe (no 1037, but Lya-i and CIII/SiIII)
+OK      PG1307+085               LYA  CGCG072-007              vgal=7119 i=50 Rv=193 rho=440 az=43 L=.0003 vLya=7279 EW=64pm7     7281   74pm9
+DO      PG1626+554               missing
+OK      RX_J0714.5+7408          LYA  UGC3717                  vgal=4188 i=61 Rv=202 rho=271 az=83 L=0.13  vLya=4074 EW=58pm7     4074   78pm9
+OK      RX_J0714.5+7408          LYA  UGC3717                  vgal=4188 i=61 Rv=202 rho=271 az=83 L=0.15  vLya=4264 EW=410pm8    4264  414pm8   +SiIII
+OK      RX_J1330.8+3119          LYA  UGC8496NED02             vgal=7414 i=16 Rv=204 rho=335 az=51 L=0.08  vLya=4839 EW=413pm16   4840  407pm14
+OK      RX_J1330.8+3119          LYA  UGC8492                  vgal=7414 i=16 Rv=204 rho=335 az=51 L=0.081 vLya=7401 EW=330pm15   7400  338pm15  +SiIII
+OK      RX_J1503.2+6810          LYA  CGCG318-012              vgal=9765 i=50 Rv=250 rho=325 az=1  L=0.031 vLya=10122 EW=44pm14  10122   64pm15
+OK      SBS1108+560              LYA  UGC6225                  vgal=699  i=77 Rv=228 rho=29  az=82 L=1.9   vLya=732  EW=1082pm82   795  487pm57  +CII,CIV,SiIII,SiIV   703 750pm63  +CII,CIV,AlII,SiII,S$
+OK      SBS1108+560              LYA  UGC6225                  vgal=699  i=77 Rv=228 rho=29  az=82 L=0.53  vLya=929  EW=284pm51    947  130pm60
+=>      SBS1122+594              LYA  NGC3642                  vgal=1588 i=8  Rv=150 rho=226 az=3  L=0.035 vLya=1796 EW=29pm8     not significant@1796  @1600: 125pm10
+OK      SBS1537+577              LYA  SDSSJ153802.75+573018.3  vgal=3525 i=80 Rv=87  rho=91  az=15 L=0.33  vLya=3549 EW=447pm28   3548  446pm24
+OK      SDSSJ080838.80+051440.0  LYA  UGC4239                  vgal=8763 i=44 Rv=279 rho=378 az=38 L=0.87  vLya=8740 EW=883pm24   8738  755pm18  +CII,SiII,SiIII
+OK      SDSSJ080838.80+051440.0  LYA  UGC4239                  vgal=8763 i=44 Rv=279 rho=378 az=38 L=0.45  vLya=8927 EW=130pm19   8926  130pm22
+OK      SDSSJ080908.13+461925.6  LYA  SDSSJ080842.74+461828.9  vgal=7092 i=37 Rv=103 rho=133 az=4  L=0.015 vLya=6774 EW=543pm10   6779  549pm10
+OK      SDSSJ080908.13+461925.6  LYA  SDSSJ080842.74+461828.9  vgal=7092 i=37 Rv=103 rho=133 az=4  L=0.076 vLya=6900 EW=151pm10   6880  174pm10
+OK      SDSSJ080908.13+461925.6  LYA  SDSSJ080842.74+461828.9  vgal=7092 i=37 Rv=103 rho=133 az=4  L=0.19  vLya=7117 EW=176pm12   7105  162pm12
+OK,DOID SDSSJ140428.30+335342.0  LYA  KUG1402+341              vgal=7919 i=69 Rv=204 rho=118 az=63 L=1.4   vLya=7884 EW=889pm28   7883  890pm30
+=>      TON488                   LYA  UGC5478                  vgal=1378 i=12 Rv=92  rho=58  az=x  L=0.89  vLya=1250 EW=68pm9     =Lyg@76477   
+OK      TON488                   LYA  UGC5478                  vgal=1378 i=12 Rv=92  rho=58  az=x  L=1.3   vLya=1375 EW=452pm12   1375  401pm12
+=>      TON1009                  LYA  NGC2770                  vgal=1947 i=78 Rv=204 rho=274 az=43 L=0.19  vLya=1961 EW=350pm21   1980  255pm13   @1933 118pm13
+OK      TON1009                  LYA  IC2439                   vgal=4299 i=71 Rv=153 rho=109 az=51 L=1.2   vLya=4275 EW=343pm17   4295  324pm16

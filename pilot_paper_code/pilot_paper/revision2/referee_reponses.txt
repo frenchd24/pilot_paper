@@ -1,0 +1,110 @@
+Thank you for all your helpful comments. We have included our responses, 
+preceded by ‘>>>’, after each of your comments.
+
+Abstract:
+
+It is still unclear that there are systems associated with
+multiple galaxies There are not 48 galaxies. The sentences 48 Lya
+systems which we have paired with individual galaxies is not correct,
+This would imply 48 galaxies. Please determine how to word this such
+that the experiment is clear.
+
+>>> We have adjusted the wording in the abstract to explicitly state this.
+
+
+Introduction:
+
+In the end of the introduction, you still mentioned the method is unbiased,
+how so, please explain. It is reproducible and analytic but where or when
+does it become unbiased? It is biased towards the selected method
+right? This method is an explicit bias is it not?
+
+>>> We changed the word “unbiased” to “numerical”
+
+
+Section 2.1:
+
+Regarding luminosity completeness. From Figure 1, you state that the sample is
+magnitude or luminosity complete down to 0.2L* between 0<cz<2500 and
+around 1L* between 2500<cz<6000. This conclusion is drawn from the
+fact that the luminosity function is increasing (as expected) towards
+lower luminosities and the completion is defined where your distribution
+deviates from the expected luminosity function. This is clear in the
+first two panels that the function flattens or drops after 0.1L* and
+1L* for two panels respectively. Maybe this is a typo, but it is then
+stated that 0.2L* at cz>6000 and even at 10,000? Do you mean 2L* since
+the the distributions of the last two panels flatten around 1-2L*.
+Can you check this please?
+
+>>> See the bolded text in Section 2.1 for this explanation. In short, there
+is a turnaround beyond cz ~6000 because SDSS data becomes available
+and is complete to ~0.2 L*, although there is some weirdness in the
+6000-8000 km/s region, which we have also addressed in the text.
+
+
+Section 2.2:
+
+Given that there is a different approach to splitting what is
+typically known as a "system" (which is a continuous absorption system
+where it does not return to the continuum level at any point in between),
+it would be good add to Section 2.2 how systems (like in Figure 2)
+are split, how their centroids, EWs, etc are calculated. This is a key
+feature of the paper that is missing and would complete the entire
+manuscript. As noted in the discussion, you select this method
+since clouds could be physically distinct, but please recall that
+the definition of a velocity clouds/components/subsystems are
+resolution dependant so your method has resolution dependence.
+In Section 2.2 you can also make clear that you have 33 sight-lines
+with XX absorption systems, which have been split into 48 components,
+which were associated with XX galaxies. Thus galaxies may be
+associated with multiple clouds/components (whatever wording you
+like). This needs to be clear early on in the manuscript.
+
+>>> We have added further discussion of these points to Section 2.2.
+
+
+Figures:
+
+Please indicate in your figure captions that open points are r<Rvir
+and closed are r>Rvir to help the reader. You may also consider
+adopting this point style for Figure 10 as well just for consistency.
+
+>>> Done.
+
+
+Section 3.3:
+
+1) You quote that the EW of blue and red to differ (recall this difference
+is less than 1 sigma - therefore no statically significant difference)
+and are 329\pm52 and 245\pm34 for ble and red respectively. Also, however,
+Table 1 shows that the average impact parameters for blue and
+red are 218\pm17 and 298\pm23 kpc, respectively. Thus, the different
+impact parameter ranges covered by the two, and as the authors have shown
+that EW is anti-correlated with impact parameter or normalzed by Rvir, implies
+that likely a significat difference could be the result of impact parameter.
+This should be mentioned. Recall the difference is less than one sigma.
+
+>>> Good catch, we have adjusted the discussion of this in section 3.3.
+
+
+2) You state that EW, dv and rho/Rvir must all be connected and
+anti-correlate. In Figure 7, you can see that the open circles
+(especially the red) have a lower velocity spread than the gas above
+Rvir. How does this fit in with your conclusions? Also, is it possible
+that the blue side has a tendency to have lower velocity range as
+the red is due to the fact that it probes on average lover impact
+paramaters (Table 1)? Can you comment on this?
+
+>>> We have added mention of this at towards the end of section 3.3.
+
+
+Conclusions:
+
+It is not scientifically correct to say you find "a slight dichotomy" in
+the EW for blue and red given the difference is less than one
+sigma. There is no statistical support to show any significance,
+never-mind much significance.
+
+>>> We have removed this. It was a remnant from an earlier version
+of this paper when at the time we thought there was a significant
+difference, which then disappeared with the final analysis.

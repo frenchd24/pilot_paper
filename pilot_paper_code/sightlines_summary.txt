@@ -1,0 +1,171 @@
+================================================================================
+1) Summary table
+
+This has the following columns:
+
+1: PRV = in previous list in pilot paper.
+   OLD = was not in pilot paper list, but data already existed and had
+         been processed. This may be sightlines missed in the first correlation
+         iterations or done since then for other projects.
+   NEW = new sightlines popping up with the new correlation
+
+2: Status of IGM identification
+   DONE = fully done
+   ID   = to doo
+
+3: Counting the sightlines that are useful.
+
+4: flag giving status
+   OK = ID done and relevant line
+   ID = old ID done and relevant line
+   => = do identification, Lya appears present
+   na = code says DROP because no relevant Lya 
+   mg = code says DROP because only groups of >3 galaxies
+   nl = no large gal
+   np = data not public or planned only
+
+5: + means S/N > 12, - means S/N < 12.
+
+6: final result
+   USE = current data ready to use
+   ADD = could be added to sample
+
+
+1   2     3 4  5 6   7
+PRV ID    1 OK + USE 3C66A                     BLLac  140.14 -16.77   0.44400      PI: Furniss,Stocke   12612,12863 LBXC02,04,LC0J01        SN=N:25.9,C:17.8,O:1.4  v3.0    nightonly=TODO   IGMPARS=partly
+PRV DONE  2 OK - USE SBS1537+577               Sey     90.88  47.83   0.07342      PI: Wakker           12276       LBI606                  SN=N:8.8                v3.0    nightonly=TODO   IGMPARS=yes
+PRV DONE  3 OK + USE MRK290                    Sey     91.49  47.95   0.02958      PI: Green            11524       LB4Q02                  SN=N:35.6,C:20.7,O:19.2 v3.0    nightonly=TODO   IGMPARS=yes
+PRV DONE  4 OK + USE MRC2251-178               QSO     46.20 -61.33   0.06609      PI: Green            12029       LBGB03                  SN=N:37.8,C:29.5,O:12.1 v3.0    nightonly=done   IGMPARS=yes
+PRV DONE  5 OK + USE SBS1503+570               QSO     93.64  52.03   0.35894      PI: Wakker           12276       LBI617                  SN=N:13.8               v3.0    nightonly=TODO   IGMPARS=yes
+OLD         mg       SDSSJ154121.50+281706.0 (too many gals)
+NEW ID    6 => - ADD SDSSJ093706.90+170021.0   QSO    215.18  44.14   0.50567      PI: Heckman          12603       LBS304,82               SN=N:9.2                v3.0    nightonly=TODO   IGMPARS=no
+NEW ID    7 => + ADD RX_J1236.0+2641           Sey    219.29  86.55   0.20915      PI: Tumlinson        12248       LBHO87                  SN=N:13.3,C:7.9         v3.0    nightonly=TODO   IGMPARS=no
+OLD         na       TON576                    QSO    209.10  69.16   0.42129      PI: Tumlinson        12248       LBHO71                  SN=N:9.8,C:10.0         v3.0    nightonly=TODO   IGMPARS=partly
+NEW ID    8 => - ADD PHL1444                   QSO    182.15 -57.42   0.37778      PI: Tumlinson        12248       LBHO74                  SN=N:9.1,C:10.0         v3.0    nightonly=TODO   IGMPARS=no
+PRV DONE  9 OK - USE SDSSJ080838.80+051440.0   QSO    217.12  19.55   0.36061      PI: Heckman          12603       LBS330                  SN=N:10.0               v3.0    nightonly=TODO   IGMPARS=yes
+OLD         na       HS1231+4814               QSO    131.24  68.87   0.38223      PI: Tumlinson        11598       LB5N31                  SN=N:11.1,C:9.1         v3.1.1  nightonly=TODO   IGMPARS=partly
+NEW         mg       US136 (too many gals)
+OLD         dk       CSO1124                   QSO    172.55  63.52   0.40310      PI: Tumlinson        12248       LBHO88                  SN=N:9.3,C:9.1          v3.0    nightonly=TODO   IGMPARS=partly
+NEW         cp       QSO0246-3050              QSO    227.75 -64.24   1.09300      PI: Bowen            12988       LC1060,65               SN=N:13.3               v3.0    nightonly=TODO   IGMPARS=no
+NEW ID   10 => - ADD MS0244.6-3020             QSO    226.57 -64.57   0.53000      PI: Bowen            12988       LC1020                  SN=N:10.0               v3.0    nightonly=TODO   IGMPARS=no
+NEW ID   11 => + ADD HE0241-3043               QSO    227.49 -65.26   0.66929      PI: Bowen            12988       LC1070                  SN=N:17.3               v3.0    nightonly=TODO   IGMPARS=no
+PRV DONE 12 OK - USE 2dFGRS_S393Z082           QSO    226.56 -64.96   0.33921      PI: Bowen            12988       LC1040,45               SN=N:11.5               v3.0    nightonly=TODO   IGMPARS=yes
+NEW         np       SDSSJ110550.70+285130.0 (public 09/01/17)
+OLD DONE 13 OK + ADD SDSSJ130524.30+035731.0   QSO    311.73  66.59   0.54566      PI: Heckman          12603       LBS321                  SN=N:13.3               v3.0    nightonly=TODO   IGMPARS=yes
+NEW         na       PG1309+355                QSO     95.49  80.73   0.18400      PI: Veilleux         12569       LBP412                  SN=N:15.1,O:3.0         v3.0    nightonly=TODO   IGMPARS=no
+NEW         np       SDSSJ112756.70+115427.0 (public 30/03/17)
+OLD         mg       SDSSJ112632.90+120437.0 (too many gals)
+OLD         mg       SDSSJ112439.50+113117.0 (too many gals)
+NEW         mg       TON694 (too many gals)
+OLD DONE    na       TON488                    QSO    198.43  54.63   0.25643      PI: Green            12025       LBG810,11               SN=N:18.9,C:18.1        v3.0    nightonly=done   IGMPARS=yes
+OLD DONE    na       SDSSJ135341.03+361948.0   Sey     71.67  73.91   0.14659      PI: Wakker           13444       LC8L04                  SN=N:19.5               v3.0    nightonly=done   IGMPARS=yes
+OLD DONE 14 OK - ADD SBS0957+599               QSO    152.57  46.39   0.74749      PI: Tumlinson        12248       LBHO65                  SN=N:11.2,C:13.7        v3.0    nightonly=done   IGMPARS=yes
+OLD DONE    na       FBQSJ1353+3620            QSO     71.81  73.95   0.28504      PI: Wakker           13444       LC8L03                  SN=N:13.9               v3.0    nightonly=done   IGMPARS=yes
+NEW         na       MS1220.9+1601             Sey    271.84  76.91   0.08069      PI: Borthakur        14071       LCX213                  SN=N:9.4                v3.1.7  nightonly=TODO   IGMPARS=no
+OLD ID   15 => - USE US2816                    QSO    197.15  74.51   0.48190      PI: Heckman          12603       LBS344                  SN=N:10.5               v3.0    nightonly=TODO   IGMPARS=partly
+PRV DONE 16 OK + USE MRK1014                   QSO    156.57 -57.94   0.16301      PI: Veilleux         12569       LBP404                  SN=N:18.8               v3.0    nightonly=TODO   IGMPARS=yes
+OLD DONE 17 OK + ADD RBS1768                   QSO      4.51 -48.46   0.18299      PI: Jenkins          12936       LC1201                  SN=N:24.8,C:13.3        v3.0    nightonly=done   IGMPARS=yes
+NEW         na       SDSSJ105220.60+101751.0   Sey    238.17  57.31   0.24620      PI: Borthakur        14071       LCX223,73               SN=N:9.4                v3.1.1  nightonly=TODO   IGMPARS=no
+PRV DONE 18 OK + USE RX_J1503.2+6810           Sey    106.45  44.51   0.11400      PI: Wakker           12276       LBI609                  SN=N:12.2               v3.0    nightonly=TODO   IGMPARS=yes
+OLD         na       ESO350-IG38               Sey    328.06 -82.85   0.02060      PI: Heckman          13017       LC3401                  SN=N:18.0,C:12.4,O:9.3  v3.1.1  nightonly=TODO   IGMPARS=partly
+OLD DONE 19 OK - ADD RX_J1356.4+2515           Sey     29.27  75.31   0.16404      PI: Tumlinson        12248       LBHO57                  SN=N:11.2,C:8.2         v3.0    nightonly=done   IGMPARS=yes
+NEW         ng       SDSSJ105958.90+251709.0   QSO    210.81  64.98   0.66278      PI: Tumlinson        12248       LBHO89                  SN=N:10.0,C:9.7         v3.0    nightonly=TODO   IGMPARS=no
+NEW         np       SBS0956+510 (planned)
+OLD         na       PG1049-005                QSO    252.28  49.88   0.35990      PI: Tumlinson        12248       LBHO53                  SN=N:13.6,C:13.1        v2.19.7 nightonly=TODO   IGMPARS=partly
+OLD ID   20 => + ADD FBQSJ1134+2555            QSO    212.62  72.87   0.70994      PI: Tumlinson        12248       LBHO86                  SN=N:10.5,C:8.7         v3.0    nightonly=TODO   IGMPARS=partly
+NEW         np       SDSSJ232259.99-005359.3 (public 31/10/16)
+PRV DONE 21 OK + USE PG1302-102                QSO    308.59  52.16   0.27840      PI: Green            12038       LBGL04                  SN=N:26.4,C:38.5,O:15.1 v3.0    nightonly=TODO   IGMPARS=yes
+NEW         np       RXS_J0028.1+3103 (planned)
+OLD DONE 22 OK - ADD SDSSJ121640.60+071224.0   QSO    278.86  68.44   0.58756      PI: Putman           11698       LB1V02                  SN=N:10.2               v3.1.1  nightonly=TODO   IGMPARS=yes
+PRV DONE    dk       SBS1108+560               QSO    148.17  56.17   0.76827      PI: Green            12025       LBG809                  SN=N:4.0,C:15.8         v3.0    nightonly=TODO   IGMPARS=yes
+NEW         np       SDSSJ110413.40+281530.0 (public 28/06/16)
+NEW ID   23 => - ADD SDSSJ094840.10+580038.0   QSO    155.83  45.73   0.49149      PI: Ellison          13774       LCOB10                  SN=N:10.0,C:5.5         v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         np       NAB1612+26 (planned)
+NEW ID   24 => + ADD MS1228.6+1219             Sey    284.49  74.20   0.11612      PI: Borthakur        14071       LCX214                  SN=N:12.1               v3.1.1  nightonly=TODO   IGMPARS=no
+PRV DONE 25 OK + USE PG1216+069                QSO    281.07  68.14   0.33130      PI: Green            12025       LBG881                  SN=N:22.4,C:16.3,O:5.0  v3.0    nightonly=TODO   IGMPARS=yes
+OLD         na       MS1217.0+0700             Sey    281.10  68.23   0.08058      PI: Wakker           13444       LC8L07                  SN=N:16.0               v3.0    nightonly=done   IGMPARS=yes
+OLD DONE 26 OK + ADD SDSSJ135726.27+043541.4   QSO    340.77  62.51   1.23453      PI: Morris           12264       LBJ005,06,07,08         SN=N:21.0,C:13.3        v3.0    nightonly=done   IGMPARS=yes
+OLD DONE    na       IRAS_Z06229-6434          QSO    274.31 -27.32   0.12889      PI: Howk             11692       LB3J09,58               SN=N:28.2,C:22.1,O:4.7  v3.0    nightonly=done   IGMPARS=yes,exceptFUSE
+NEW ID   27 => + ADD SDSSJ105956.10+121151.0   QSO    237.19  59.92   0.99271      PI: Heckman          12603       LBS306                  SN=N:13.1               v3.0    nightonly=TODO   IGMPARS=no
+OLD DONE    na       SDSSJ080908.13+461925.6   QSO    173.32  32.29   0.65634      PI: Tumlinson        12248       LBHO77                  SN=N:14.3,C:15.7        v3.0    nightonly=TODO   IGMPARS=yes
+NEW         na       PG1202+281                QSO    205.96  79.61   0.16530      PI: Tumlinson        12248       LBHO72                  SN=N:8.3,C:9.2,O:1.5    v3.0    nightonly=TODO   IGMPARS=no
+NEW         na       PG0923+201                QSO    210.18  42.65   0.19000      PI: Veilleux         12569       LBP406                  SN=N:20.0               v3.0    nightonly=TODO   IGMPARS=no
+NEW         np       TON1015 (planned)
+PRV DONE 28 OK + USE TON1009                   QSO    192.24  42.03   0.81028      PI: Heckman          12603       LBS328                  SN=N:12.4               v3.0    nightonly=TODO   IGMPARS=yes
+NEW ID   29 => - ADD SDSSJ091728.60+271951.0   Sey    199.72  42.82   0.07564      PI: Borthakur        14071       LCX202,Z2               SN=N:11.4               v3.1.1  nightonly=TODO   IGMPARS=no
+OLD DONE 30 OK - ADD SDSSJ091127.30+325337.0   Sey    191.95  42.56   0.29038      PI: Wakker           14240       LCWM03                  SN=N:8.5                v3.1.7  nightonly=TODO   IGMPARS=yes
+OLD DONE 31 OK - ADD FBQSJ0908+3246            Sey    192.00  41.96   0.25989      PI: Wakker           14240       LCWM01                  SN=N:10.0               v3.1.7  nightonly=TODO   IGMPARS=yes
+PRV DONE 32 OK + USE RX_J1330.8+3119           QSO     61.28  80.43   0.24232      PI: Tumlinson        12248       LBHO85                  SN=N:13.8,C:14.1        v3.0    nightonly=TODO   IGMPARS=yes
+PRV DONE 33 OK - USE SDSSJ140428.30+335342.0   QSO     60.69  72.91   0.54996      PI: Heckman          12603       LBS320                  SN=N:8.9                v3.0    nightonly=TODO   IGMPARS=yes
+NEW         np       MRK1179 (planned)
+NEW         na       SDSSJ095109.10+330745.0   QSO    192.85  50.86   0.64531      PI: Bowen            12486       LBP210,15               SN=                     v3.1.1  nightonly=TODO   IGMPARS=no
+OLD DONE 34 OK + ADD RX_J2139.7+0246           QSO     58.09 -35.01   0.26000      PI: Fox              13840       LCJW03                  SN=N:16.2               v3.0    nightonly=done   IGMPARS=yes
+NEW ID   35 => - ADD FBQSJ1431+2442            QSO     32.41  67.42   0.40691      PI: Heckman          12603       LBS314                  SN=N:9.5                v3.0    nightonly=TODO   IGMPARS=no
+PRV DONE 36 OK + USE RX_J0714.5+7408           QSO    140.80  27.59   0.37100      PI: Wakker           12275       LBH402                  SN=N:18.2               v3.0    nightonly=TODO   IGMPARS=yes
+OLD DONE 37 OK - ADD SDSSJ131545.20+152556.0   QSO    329.94  77.01   0.44811      PI: Heckman          12603       LBS331                  SN=N:10.5               v3.0    nightonly=done   IGMPARS=yes
+OLD         mg       RBS2070                   BLLac   12.84 -78.04   0.16539      PI: Fang             12864       LC0F01,02               SN=N:17.3               v3.0    nightonly=done   IGMPARS=yes
+OLD         na       PG1121+423                QSO    167.26  66.86   0.22500      PI: Green            12024       LBG703                  SN=N:22.8,C:15.4        v3.0    nightonly=done   IGMPARS=yes
+PRV DONE 38 OK + USE 3C351.0                   QSO     90.08  36.38   0.37194      PI: Charlton,Jenkins 8015,8681   O57900,01-04,O65602     SN=N:8.7,C:9.2,O:0.1    vXXX    nightonly=NONE   IGMPARS=yes
+PRV DONE 39 OK + USE HE1228+0131               QSO    291.26  63.66   0.11700      PI: Arav             11686       LB4F09,10               SN=N:40.9,C:36.3,O:5.6  v3.0    nightonly=TODO   IGMPARS=yes
+PRV DONE 40 => + USE 3C273.0                   QSO    289.95  64.36   0.15834      PI: Green            12038       LBGL31                  SN=N:63.2,O:27.2        v3.0    nightonly=TODO   IGMPARS=partly
+OLD         mg       RX_J1342.1+0505           QSO    333.89  64.87   0.26608      PI: Tumlinson        12248       LBHO60                  SN=N:11.4,C:14.9        v3.0    nightonly=done   IGMPARS=yes
+OLD DONE    na       RX_J1429.6+0321           QSO    351.84  56.59   0.25344      PI: Heckman          12603       LBS308,80               SN=N:9.1                v3.0    nightonly=done   IGMPARS=yes
+NEW         np       TON605 (public 26/11/16)
+OLD         na       PG1626+554                QSO     84.51  42.19   0.13300      PI: Green            12029       LBGB01                  SN=N:25.9,C:20.8,O:14.4 v3.0    nightonly=TODO   IGMPARS=yes
+NEW ID   41 => - ADD SDSSJ080844.26+394852.3   Gal    180.87  31.21   0.09108      PI: Heckman          11727       LB5B03                  SN=N:11.4,C:10.0        v3.1.1  nightonly=TODO   IGMPARS=no
+OLD         na       PG1206+459                QSO    144.63  69.62   1.15800      PI: Charlton,Kim,Tripp 11741,12466,13846,14265 LB1O04,05,06,07,LBRP02,LCO710,11,LCWJ07,08,09 SN=N:19.5,C:35.0        v3.1.1,3.1.7  nightonly=TODO   IGMPARS=partly
+NEW         np       RX_J1406.9+1442 (public 28/06/16)
+PRV DONE 42 OK + USE PG1211+143                QSO    267.55  74.32   0.08040      PI: Shull,Stocke     7345,8571   O4EC08,O61Y00,01-08     SN=N:24.617.6,C:14.8    vXXX    nightonly=NONE   IGMPARS=yes
+NEW         np       CSO316 (public 27/12/16)
+PRV DONE    nl       PG1307+085                QSO    316.79  70.71   0.15500      PI: Veilleux         12569       LBP411                  SN=N:20.4,O:6.8         v3.0    nightonly=TODO   IGMPARS=yes PREV
+NEW ID   43 => + ADD LBQS1230-0015             QSO    293.11  61.99   0.47095      PI: Bowen,Tumlinson  11598,12486 LB5N15,LBP250           SN=N:14.0,C:9.6         v3.1.1  nightonly=TODO   IGMPARS=no
+NEW         na       SDSSJ101622.60+470643.0   QSO    169.03  53.74   0.82372      PI: Tumlinson        11598,13033 LB5N07,LC1C14,24        SN=N:12.5,C:10.7        v3.0,3.1.1  nightonly=TODO   IGMPARS=no
+NEW ID   44 => + ADD RX_J1017.5+4702           QSO    169.03  53.95   0.33544      PI: Borthakur        13314       LC9M04                  SN=N:12.5               v3.0    nightonly=TODO   IGMPARS=no
+NEW ID   45 => + ADD SDSSJ095915.60+050355.0   Sey    233.37  43.48   0.16263      PI: Tumlinson        12248       LBHO68                  SN=N:13.6,C:11.0        v3.0    nightonly=TODO   IGMPARS=partly
+NEW ID   46 => - ADD LBQS1220+0939             QSO    281.08  71.05   0.68236      PI: Putman           11698       LB1V10                  SN=N:11.7               v3.1.1  nightonly=TODO   IGMPARS=no
+NEW         dk       2E1219+0447               Sey    284.18  66.29   0.09400      PI: Borthakur        14071       LCX205                  SN=N:N:11.7             v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         nl       RX_J1232.5+0603           Sey    290.09  68.45   0.08381      PI: Putman           13383       LCBT01,02               SN=N:15.2,C:18.9        v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         nl       RBS1089                   QSO    278.25  69.38   0.34351      PI: Putman           11698       LB1V01                  SN=N:12.2               v3.1.1  nightonly=TODO   IGMPARS=no
+OLD DONE    na       SBS1116+523               QSO    151.23  59.70   0.35568      PI: Wakker           14240       LCWM09                  SN=N:14.3               v3.1.7  nightonly=TODO   IGMPARS=yes
+OLD DONE 47 OK + ADD RX_J1117.6+5301           Sey    150.44  58.80   0.15871      PI: Wakker           14240       LCWM05                  SN=N:12.0               v3.1.7  nightonly=TODO   IGMPARS=yes
+NEW ID   48 => - ADD HS1119+5812               QSO    143.64  55.49   0.90685      PI: Tumlinson        12248       LBHO84                  SN=N:9.1,C:8.9          v3.0    nightonly=TODO   IGMPARS=no
+NEW         na       RX_J0023.5+1547           QSO    113.14 -46.54   0.41188      PI: Borthakur        14071       LCX221                  SN=N:6.8                v3.1.1  nightonly=TODO   IGMPARS=no
+OLD         na       PKS2005-489               BLLac  350.37 -32.60   0.07100      PI: Green            11520       LB4R03                  SN=N:23.1,C:18.1,O:18.0 v3.0    nightonly=done   IGMPARS=yes
+NEW         np       RX_J1144.5+0705 (planned)
+PRV ID   49 => + USE CSO395                    QSO    161.26  77.01   0.17109      PI: Tumlinson        12248       LBHO62                  SN=N:13.8,C:11.4        v3.0    nightonly=TODO   IGMPARS=partly  PREV
+OLD DONE 50 OK + ADD SDSSJ112224.10+031802.0   QSO    257.31  58.05   0.47528      PI: Heckman          12603       LBS318                  SN=N:12.9               v3.0    nightonly=done   IGMPARS=yes
+NEW         na       SDSSJ112005.00+041323.0   QSO    255.34  58.38   0.54688      PI: Heckman          12603       LBS326                  SN=N:8.5                v3.0    nightonly=TODO   IGMPARS=yes
+NEW ID   51 => = ADD LBQS1216+1032             QSO    276.90  71.47   0.54269      PI: Putman           11698       LB1V09                  SN=N:11.4               v3.1.1  nightonly=TODO   IGMPARS=no
+PRV         na       HS0624+6907               QSO    145.71  23.35   0.37000      PI: Tripp            9128,9184   O6CT12,O6E100,12-16     SN=O:11.8               vXXX    nightonly=NONE   IGMPARS=partly
+NEW ID   52 => - ADD SDSSJ225738.20+134045.0   QSO     85.28 -40.73   0.59455      PI: Tumlinson        11598       LB5N34                  SN=N:9.2,C:9.0          v3.1.1  nightonly=TODO   IGMPARS=no
+PRV         na       HE0238-1904               QSO    200.48 -63.63   0.63100      PI: Green,Penton     11541,12505 LB6804,LBSK04           SN=N:48.9,C:25.3,O:13.1 v3.0    nightonly=TODO   IGMPARS=partly
+OLD         na       HE0429-5343               Sey    262.08 -42.17   0.04001      PI: Wakker           12275       LBH417                  SN=N:15.0,O:4.5         v3.0    nightonly=TODO   IGMPARS=partly
+NEW ID   53 => + ADD RX_J1544.5+2827           QSO     45.32  51.91   0.23137      PI: Cooke            13423       LC9W08                  SN=N:13.0               v3.1.7  nightonly=TODO   IGMPARS=no
+OLD ID   54 => - ADD SDSSJ021218.32-073719.8   QSO    171.15 -62.66   0.17392      PI: Tumlinson        12248       LBHO83,92               SN=N:10.8,C:8.9         v2.19.7 nightonly=TODO   IGMPARS=partly
+OLD DONE    dk       PHL1226                   QSO    150.80 -54.62   0.40400      PI: Kulkarni         12536       LBRE01,02               SN=N:14.0               v3.0    nightonly=done   IGMPARS=yes
+NEW         na -     SDSSJ152447.75+041919.8   QSO      7.85  46.92   0.71103      PI: Borthakur        14071       LCX218                  SN=N:8.8                v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         np       US3150 (planned)
+PRV DONE 55 OK + USE H1101-232                 BLLac  273.19  33.08   0.18600      PI: Green            12025       LBG804,05               SN=N:16.4,C:12.5        v3.0    nightonly=TODO   IGMPARS=yes
+PRV ID   56 => + USE 1H0717+714                BLLac  143.98  28.02   0.50035      PI: Green            12025       LBG812                  SN=N:23.2,C:28.6,O:16.3 v3.0    nightonly=TODO   IGMPARS=partly
+NEW ID   57 => - ADD US1786                    QSO    178.49  39.48   0.48194      PI: Ellison          13774       LCOB07,13               SN=N:9.4,C:11.5         v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         na       SDSSJ142859.10+322507.0   QSO     52.89  68.23   0.62717      PI: Borthakur        13314       LC9M03                  SN=N:20.7               v3.1.7  nightonly=TODO   IGMPARS=no
+PRV DONE 58 OK + USE PG0003+158                QSO    107.32 -45.33   0.45090      PI: Green            12038       LBGL17,27               SN=N:30.0,C:24.2        v3.0    nightonly=TODO   IGMPARS=yes
+OLD DONE    na       KAZ238                    Sey    110.96 -28.35   0.04310      PI: Lehner           14268       LCXV09,10               SN=N:10.5,C:10.0        v3.0    nightonly=done   IGMPARS=yes
+OLD         na       SDSSJ015530.02-085704.0   QSO    165.72 -66.34   0.16443      PI: Tumlinson        12248       LBHO66                  SN=N:10.5,C:8.9         v3.0    nightonly=TODO   IGMPARS=partly
+OLD         na       PG1630+377                QSO     60.34  42.94   1.43264      PI: Tripp            11741       LB1O28,30,31            SN=N:36.5,C:23.6        v3.1.1  nightonly=TODO   IGMPARS=no
+NEW ID   59 => - ADD SDSSJ141505.91+044546.1   QSO    348.35  60.04   0.24132      PI: Borthakur        14071       LCX226                  SN=N:10.7               v3.1.7  nightonly=TODO   IGMPARS=no
+NEW         nl       SDSSJ132222.70+464535.0 (no large galaxies at v>500)
+NEW         ng       SDSSJ004222.29-103743.8
+NEW ID   60 => - ADD SDSSJ155821.90+120532.0   QSO     23.43  43.79   0.57452      PI: Borthakur        14071       LCX219,69               SN=N:10.2               v3.1.7  nightonly=TODO   IGMPARS=no
+OLD DONE    na       QSO1500-4140              QSO    327.73  14.55   0.33500      PI: Winkler          11659       LB3F03                  SN=N:10.0               v3.0    nightonly=done   IGMPARS=yes
+NEW         na       HS1024+1849               QSO    219.73  55.90   2.71992      PI: Syphers          12816       LC2Y02,03               SN=N:9.3                v3.0    nightonly=TODO   IGMPARS=no
+OLD         nl       3C249.1                   QSO    130.39  38.55   0.31150      PI: Charlton,Tripp    8681,9128,9184 O65635,O6CT23,O6E100,24-30 SN=O:16.2        vXXX    nightonly=NONE   IGMPARS=partly
+NEW ID   61 => - ADD 2E1530+1511               Sey     23.46  50.56   0.09000      PI: Borthakur        14071       LCX208,58               SN=N:9.1                v3.1.1  nightonly=TODO   IGMPARS=no
+OLD DONE 62 OK + ADD RX_J2043.1+0324           QSO     49.72 -22.88   0.27100      PI: Fox              13840       LCJW02                  SN=N:15.0               v3.0    nightonly=done   IGMPARS=yes
+NEW ID   63 => - ADD SDSSJ105945.30+144142.0   QSO    232.83  61.20   0.63171      PI: Tumlinson        12248       LBHO78                  SN=N:11.8,C:12.9        v3.0    nightonly=TODO   IGMPARS=no
+OLD ID   64 => + ADD MRK876                    QSO     98.27  40.38   0.12900      PI: Arav,Green       11524,11686 LB4F05,LB4Q03           SN=N:59.7,C:41.8,O:33.8 v3.0    nightonly=TODO   IGMPARS=partly
+NEW ID   65 => - ADD SDSSJ124129.64+285212.0   QSO    173.92  87.20   0.58967      PI: Heckman          12603       LBS345                  SN=N:11.4               v3.0    nightonly=TODO   IGMPARS=no
+OLD DONE 66 OK + ADD PG0832+251                QSO    199.49  33.15   0.33100      PI: Green            12025       LBG808                  SN=N:15.8,C:10.0,O:3.5  v3.1.1  nightonly=TODO   IGMPARS=yes
+NEW ID   67 => - ADD SDSSJ092542.30+344108.0   QSO    189.95  45.70   1.06790      PI: Bordoloi         13852       LCLP05                  SN=N:10.4,C:7.9         v3.1.7  nightonly=TODO   IGMPARS=no
+NEW ID   68 => - ADD SDSSJ080359.23+433258.4   QSO    176.40  31.00   0.44871      PI: Tumlinson        11598       LB5N09                  SN=N:8.8,C:8.6          v3.1.1  nightonly=TODO   IGMPARS=no
+NEW ID   69 => + ADD PG1001+054                QSO    234.16  44.62   0.16100      PI: Bregman,Cooke    13347,13423 LC9W02,LCCV02           SN=N:21.8,C:12.0,O:1.8  v3.1.7  nightonly=TODO   IGMPARS=no

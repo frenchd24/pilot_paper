@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: french_article_revision2_1.aux
+The style file: aasjournal.bst
+Database file #1: french_article_revision2_1Notes.bib
+Database file #2: french_bib2.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 40 entries,
+            3183 wiz_defined-function locations,
+            978 strings with 17905 characters,
+and the built_in function-call counts, 21606 in all, are:
+= -- 1669
+> -- 1909
+< -- 6
++ -- 645
+- -- 704
+* -- 2010
+:= -- 4159
+add.period$ -- 40
+call.type$ -- 40
+change.case$ -- 289
+chr.to.int$ -- 39
+cite$ -- 40
+duplicate$ -- 768
+empty$ -- 1115
+format.name$ -- 737
+if$ -- 4178
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 39
+newline$ -- 124
+num.names$ -- 160
+pop$ -- 312
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 615
+stack$ -- 0
+substring$ -- 794
+swap$ -- 10
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 360
+warning$ -- 0
+while$ -- 148
+width$ -- 0
+write$ -- 403

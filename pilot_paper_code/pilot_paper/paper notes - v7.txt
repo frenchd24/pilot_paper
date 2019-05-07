@@ -1,0 +1,7 @@
+copy the system plots from /d/cos/mrk290/system/3264.. etc to an appendix for the paper
+
+do the completeness Lstar plot for SDSS and nonSDSS parts of the sky
+
+only include sightlines that are used - table 1 and table 2 have the same sightlines
+
+look at each case, only keep the large galaxies that work.

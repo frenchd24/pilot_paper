@@ -1,0 +1,258 @@
+Thank you for all your helpful comments. We have included our responses, 
+preceded by ‘>>>’, after each of your comments.
+
+
+Overarching comments:
+
+1) When I first read the abstract, I understood there to be 48
+individual galaxies with Lya absorption, however, the absorption
+systems as shown in Figure 2 are split. Although the authors have an
+analytic way of associating gas to one of the galaxies, it is
+impossible to state how the clouds differ and is a contrary approach
+to previous works where absorption systems are considered as one
+system within some velocity window (as in 400 km/s Wakker \& Savage
+2009). So I wondering why this is done? What does it physically mean
+since there can be a location/relative velocity degeneracy? Also how
+can you then compare to previous studies when you are double counting
+2 absorbers per galaxy orientation in some cases. Splitting by does
+have some merit when looking and the velocity distributions etc.,
+though.
+
+>>> Good point. We addressed this in detail in the new discussion section.
+In this pilot sample we wanted to do both the simplest and least
+ambiguous thing, i.e., make as few assumptions about the absorbers as
+possible. In Paper II, with the full sample in hand, we will address this 
+issue from both sides.
+
+
+2) I think this paper will have a high impact, and what I am mostly
+concerned about is the standard apples and oranges comparison. I think
+it is important for us in the community to understand and explain this
+to the rest of the readers to say why it is possible we see these
+differences rather than just saying we see conflicting results since
+this only adds the the confusion rather than clarifying our image of
+the CGM. Yes, hydrogen my trace different things from metals but why?
+Thus, you should consider the following or have some discussion in the
+discussion section (which does not exist in this manuscript and
+should).
+
+-Previous results are incorrect and suffer from low number
+statistics. This is likely, yet a consistency with a number of
+studies now make it less likely.
+
+- column density limits: Previous orientation work focused on
+metal-lines typically associated with LLS. This is a main difference
+between the Mathes work and the Kacprzak work. Here, although the
+column densities are not listed, they all appear to be very low. We
+have see in the past, that low column density systems as in Cote et
+al. 2005 show no evidence to Lya co-rotating with the galaxy, however,
+numerous studies such steidel+2002, Chen+05, Kacprzk+2010,
+Diamond-Stanic+2016, Ho+2016 for metal-line (typically LLS) do
+exhibit co-rotation. So column densities are an important aspect to
+consider when understanding what is being traced when.
+
+- Impact parameter selection, it is critical here that when comparing
+results, we understand the impact parameter distributions and are they
+within 1Rvir or not. In this sample, less than 1/3 have impact
+parameters within 1Rvir. Other previous works were limited to much
+lower impact parameter ranges (thus, likely higher column density
+systems), which could change the results. This hopefully can be
+tested with your larger sample. A combination of impact parameters
+and column densities is the main difference between a null result
+in Mathes+14 and Kacprzak+15.
+
+>>> Open symbols are now used in relevant figures to denote systems
+with impact parameter <= R_vir. We also address this in the new discussion
+section.
+
+
+- picking the largest galaxies in the pilot sample, i.e, most massive
+galaxies could provide a difference of conclusions since these
+galaxies are likely above the critical halo mass where cold accretion
+is expected to occur (at least within simulations). Other studies focus
+mostly on sub-L* galaxies, where this is not likely the case.
+
+>>> Our added discussion section hopefully addresses these concerns.
+
+
+
+Detailed comments:
+
+Introduction
+
+The authors should cite works by Borthakur+, especially
+Borthakur+15, which is very relevant to this work.
+
+>>> Yes, thanks for the suggestion. Done.
+
+
+page 2, column 1
+States that at low redshift, one can unambiguously associate absorbers
+to galaxies. This is not true, you have better detection threshold for
+very low mass galaxies, but in the cases such as Figure 2, the gas was
+assumed to be associated with the more massive/closer galaxy. This
+assumption is similar to higher redshift, except we may not
+potentially see the lower mass galaxies, but the result is the
+same. Or if the authors do not like that argument, you still can't
+unambiguously associate the gas to the bigger galaxy in Figure 2. It
+is an assumption based on known gas radial profiles etc. So the
+association is based on (well found) assumptions, which is not
+unambiguous.
+
+>>> We agree, and have removed all usage of “unambigous” from
+the manuscript. What we were attemping to say was “unbiased”, or 
+“reproducible,” and this has been implemented. 
+
+
+page 2, column 1
+``...Stated Werk+ 2014 are complete to ~L* at z\sim0.2)' This is false.
+The average of their galaxy sample is around 0.6L*. They are sensitive to lower
+luminosity limits of 0.1L*. Please have a detailed look at their work and
+the work of others.
+
+>>> Yes, this error has been fixed.
+
+
+page 2 column 1
+The authors make a big point that they previous works suffer from
+small number statistics and that more data is needed to understand
+the CGM. However, this pilot paper has around 30 (individual)
+galaxies. This this is the same as (or less than) previous works.
+
+>>> Indeed, this pilot study suffers from these issues as well. We have
+adjusted language to address this.
+
+
+page 2 Figure 1
+Would be helpful if you could make Figure 1 a bit bigger or at least
+make the labels bigger.
+
+>>> Done.
+
+
+Page 3 Table 1
+Please fix the format for RA and DEC. DEC does not need the .0
+and the end of each entry.
+
+>>> Done. 
+
+
+Page 4, Sec 2.2
+The authors have sorted their database and selected galaxies
+with D>25 kpc ensures you select the most massive galaxies. I think
+this needs to be discussed (as I pointed out above) on how
+this could possibly affect your results. This is a good reason
+to have a discussion section. Also the impact parameter range
+is at least 2x higher than previous works.
+
+>>> Done, see the new discussion section.
+
+
+Page 5 Section 3.0
+I wonder why in your equation you use a velocity normalization of
+v=200, why not use the escape velocity of the halo, which corresponds
+to your Rvir?
+
+>>> We added some discussion of this decision.
+
+
+Page 5 Section 3.0
+I am still unclear why you split the absorption systems and not use
+the classical assumption that it is all one absorption system? This
+has complicated assumptions and does it have any physical meaning?
+
+>>> We have address this in the new discussion section.
+
+
+Page 5 Section 3.1
+
+Also see Churchill+ 2013 who also show for metal-lines that the
+anti-correlation between EW and rho is stronger when normalized
+by Rvir.
+
+>>> Thanks, we added this reference.
+
+
+Figures 3,4, etc. Can you put error bars on the bins?
+
+>>> All the bins we use are qualitative only, and we never state their 
+actual values (much like those in, e.g., Borthukar+ 2015 or Kacprzak+ 2011). 
+The bin errors are counting statistics, so their errors will often be large and
+not particularly enlightening given the small sample size in this work. 
+In short, we certainly could add error bars but we don’t believe that 
+would improve the figures or manuscript. We have also added more 
+language both throughout the paper and in the discussion section
+for taking these results with a grain of salt because of the sample size.
+
+
+Table 2.
+Could you please put the L=X L* for each galaxy in the table?
+
+>>> Done.
+
+
+Page 8.
+You quote a significance level of 99.96\% by simply assuming
+that the AD method is more accurate. Can you demonstrate this?
+Either way, KS yields 2.4sigma while AD yields 2.9 sigma so
+it is marginally significant at best. Can you bootstrap
+the sample to see if this is a robust result? Also how are
+you comparing the total sample to the selected sample?
+Are you selecting random subsets from the total sample
+of equal numbers to the selected sample and then doing
+the statistical tests? Or are you comparing the total sample
+and the selected sample?
+
+>>> The Anderson-Darling test is an updated, more modern and 
+accurate version of the KS test. We have simply eliminated KS 
+results so as to not add confusion. Our p-value of 0.00037
+corresponds to 3.56sigma. The test considers our full sample
+compared to the full distribution of galaxy inclination angles, and
+tests the likelihood of getting the sample by drawing random 
+samples from the full distribution.
+
+
+Page 8.
+You can remove ``it is worth nothing here that the observed distribution
+of galaxy inclination angles is not flat, as one might naively expect'
+This is something every astronomer should know.
+
+>>> We agree that every astronomer SHOULD know this. However, we 
+didn’t when we first found this result, so we would like to include it for
+completeness’ sake.
+
+
+Page 8, Section 3.3
+The findings of most of the absorption within 100 km/s could be an
+artifact of splitting absorption systems and assigning lower priority
+to them. Can you address this? Also, there is a significant body of the
+work that could be referenced here also showing this for Lya, OIV,
+MgII etc.
+
+>>> This is addressed in the final paragraph of Section 3.3. In short, 
+we would actually expect the OPPOSITE given our method. 
+
+
+Page 8, Section 3.3
+The authors state that there is a difference between blue- and
+redshifted velocities with Vblue=68\pm16 and Vred=108\pm20
+and EWblue 329\pm52 and EWred 245\pm34.
+
+-The difference between Vblue and Vred is only 1.1sigma.
+-The difference between EWblue and EWred is 0.98 sigma.
+
+Therefore, as quoted, there is not significant difference seen here.
+
+Figure 8.
+There is no need for this Figure, this is more relevant for
+a thesis and not a paper.
+
+>>> We have found that many people are unfamiliar with
+azimuth, and very few papers actually define it clearly. We would
+prefer to keep this figure to maximize reader clarity and inclusion.
+
+
+I highly suggest adding a discussion of the results found here,
+this would add increase the impact and add a lot to the paper.
+
+>>> Done. Thank you for all your helpful suggestions.

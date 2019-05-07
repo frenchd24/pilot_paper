@@ -1,0 +1,3 @@
+Borthakur 2015: 
+
+No azimuth correlation. impact parameter <= 250 kpc, +/-600 km/s in velocity. 47, reduced to 45 QSO/galaxy pairs. Did the W vs impact and W vs impact/R_vir also, found not much difference but both anti-correlate. Fits this correlation with Log(W) = (-0.432)*rho/R_vir - 0.026, or W = 0.941e^(-rho/R_vir). 94% of absorbers are within 250 km/s of the galaxy. They argue this means their absorbers are actually tracing bound CGM, not coincidental IGM. Corrected for impact parameter dependence on azimuth by dividing EW for each point by the average EW at that impact parameter, still no correlation.
